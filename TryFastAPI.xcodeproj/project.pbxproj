@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BFCF655F2D2E87C100A91C7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCF65592D2E87C100A91C7B /* Preview Assets.xcassets */; };
+		BFCF65602D2E87C100A91C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCF655B2D2E87C100A91C7B /* Assets.xcassets */; };
+		BFCF65612D2E87C100A91C7B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF655C2D2E87C100A91C7B /* LoginView.swift */; };
+		BFCF65622D2E87C100A91C7B /* TryFastAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF655D2D2E87C100A91C7B /* TryFastAPIApp.swift */; };
+		BFCF65642D2E87F300A91C7B /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF65632D2E87F300A91C7B /* APIServices.swift */; };
+		BFCF65662D2E887E00A91C7B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF65652D2E887E00A91C7B /* Model.swift */; };
+		BFCF65682D2E8E8B00A91C7B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF65672D2E8E8B00A91C7B /* MainView.swift */; };
+		BFCF656A2D2E8EF900A91C7B /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF65692D2E8EF900A91C7B /* TodoListView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BFCF65482D2E87B200A91C7B /* TryFastAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryFastAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCF65592D2E87C100A91C7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFCF655B2D2E87C100A91C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCF655C2D2E87C100A91C7B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BFCF655D2D2E87C100A91C7B /* TryFastAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFastAPIApp.swift; sourceTree = "<group>"; };
+		BFCF65632D2E87F300A91C7B /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		BFCF65652D2E887E00A91C7B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BFCF65672D2E8E8B00A91C7B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BFCF65692D2E8EF900A91C7B /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BFCF654A2D2E87B300A91C7B /* TryFastAPI */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TryFastAPI;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFCF65452D2E87B200A91C7B /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		BFCF653F2D2E87B200A91C7B = {
 			isa = PBXGroup;
 			children = (
-				BFCF654A2D2E87B300A91C7B /* TryFastAPI */,
+				BFCF655E2D2E87C100A91C7B /* TryFastAPI */,
 				BFCF65492D2E87B200A91C7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,29 @@
 				BFCF65482D2E87B200A91C7B /* TryFastAPI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCF655A2D2E87C100A91C7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFCF65592D2E87C100A91C7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFCF655E2D2E87C100A91C7B /* TryFastAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BFCF65652D2E887E00A91C7B /* Model.swift */,
+				BFCF65632D2E87F300A91C7B /* APIServices.swift */,
+				BFCF655C2D2E87C100A91C7B /* LoginView.swift */,
+				BFCF65672D2E8E8B00A91C7B /* MainView.swift */,
+				BFCF65692D2E8EF900A91C7B /* TodoListView.swift */,
+				BFCF655D2D2E87C100A91C7B /* TryFastAPIApp.swift */,
+				BFCF655B2D2E87C100A91C7B /* Assets.xcassets */,
+				BFCF655A2D2E87C100A91C7B /* Preview Content */,
+			);
+			path = TryFastAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +93,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BFCF654A2D2E87B300A91C7B /* TryFastAPI */,
 			);
 			name = TryFastAPI;
 			packageProductDependencies = (
@@ -109,6 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCF655F2D2E87C100A91C7B /* Preview Assets.xcassets in Resources */,
+				BFCF65602D2E87C100A91C7B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCF65612D2E87C100A91C7B /* LoginView.swift in Sources */,
+				BFCF65622D2E87C100A91C7B /* TryFastAPIApp.swift in Sources */,
+				BFCF656A2D2E8EF900A91C7B /* TodoListView.swift in Sources */,
+				BFCF65642D2E87F300A91C7B /* APIServices.swift in Sources */,
+				BFCF65682D2E8E8B00A91C7B /* MainView.swift in Sources */,
+				BFCF65662D2E887E00A91C7B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
