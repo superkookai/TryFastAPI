@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum APIError: Error {
+enum APIError: String, Error {
     case endpointError
     case responseError
     case notGetToken
@@ -50,7 +50,7 @@ class APIServices {
     }
     
     func getTodos() async throws -> [Todos] {
-        let endpoint = "http://127.0.0.1:8000/"
+        let endpoint = "http://127.0.0.1:8000/todos/"
         guard let url = URL(string: endpoint) else {
             throw APIError.endpointError
         }
